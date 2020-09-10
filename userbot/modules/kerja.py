@@ -4,7 +4,8 @@ import time
 from time import sleep
 from userbot import CMD_HELP
 from userbot.events import register
-	
+
+# Create by myself @HundinTogam	
 @register(outgoing=True, pattern='^.wait(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
@@ -12,6 +13,7 @@ async def typewriter(typew):
 	await typew.edit("OK, tunggu bentar \n"
 			 f"Aku akan menyiapkan semuanya untukmu")
 
+# Create by myself @HundinTogam
 @register(outgoing=True, pattern='^.subdo(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
@@ -21,6 +23,7 @@ async def typewriter(typew):
 			 f"1X Garansi : 30.000\n"
 			 f"3X Garansi : 50.000\n")
 
+# Create by myself @HundinTogam
 @register(outgoing=True, pattern='^.tq(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
