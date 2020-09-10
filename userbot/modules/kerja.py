@@ -68,7 +68,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`Silahkan Isi! \nTampilan : \nEmail : \nOrder  \n#HanzBOT")
+	await typew.edit("`Silahkan Isi! \nTampilan : \nEmail : \n Order  \n#HanzBOT")
 
 
 
