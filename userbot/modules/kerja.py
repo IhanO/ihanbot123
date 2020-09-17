@@ -60,7 +60,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`DANA : `081572665200 `A/N MESSY HARIANI` \nJangan lupa bukti transfernya bosku \n#HanzBOT")
+	await typew.edit("`DANA : `085820321596 `A/N ARIS ADIYANTO` \nJangan lupa bukti transfernya bosku \n#HanzBOT")
 
 
 # Create by myself @HundinTogam
