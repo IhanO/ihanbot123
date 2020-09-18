@@ -69,6 +69,13 @@ async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
 	await typew.edit("`Silahkan Isi! \nTampilan : \nEmail : \n Order  \n#HanzBOT")
+	
+# Create by myself @HundinTogam
+@register(outgoing=True, pattern='^.p(?: |$)(.*)')
+async def typewriter(typew):
+	message = typew.pattern_match.group(0)
+	sleep(0)
+	await typew.edit("`Assalamualaikum, Ukhtie`")
 
 
 
